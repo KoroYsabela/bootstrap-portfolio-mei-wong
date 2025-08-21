@@ -20,7 +20,12 @@ h2 {
     color:#184f63;
 }
 
-/* About */
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+}
+
+/* Hero */
 
 #hero {
     background-color: #dbdcde; /* light grey */
